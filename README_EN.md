@@ -19,17 +19,17 @@ A high-performance, lightweight Ingress AP calculator written in Rust. It helps 
 
 ## Installation
 
-You can download pre-compiled binaries from the [Releases](https://github.com/your-username/ap/releases) page.
+You can download pre-compiled binaries from the [Releases](https://github.com/your-username/ingress-ap-calc/releases) page.
 
 Alternatively, build from source:
 
 ```bash
-git clone https://github.com/your-username/ap.git
-cd ap
+git clone https://github.com/your-username/ingress-ap-calc.git
+cd ingress-ap-calc
 cargo build --release
 ```
 
-The binary will be located at `target/release/ap`.
+The binary will be located at `target/release/ingress-ap-calc`.
 
 ## Usage
 

@@ -17,13 +17,13 @@ jobs:
         include:
           - os: ubuntu-latest
             target: x86_64-unknown-linux-gnu
-            artifact_name: ap-linux-x86_64
+            artifact_name: ingress-ap-calc-linux-x86_64
           - os: macos-latest
             target: aarch64-apple-darwin
-            artifact_name: ap-macos-aarch64
+            artifact_name: ingress-ap-calc-macos-aarch64
           - os: windows-latest
             target: x86_64-pc-windows-msvc
-            artifact_name: ap-windows-x86_64.exe
+            artifact_name: ingress-ap-calc-windows-x86_64.exe
 
     steps:
       - name: Checkout code
@@ -42,9 +42,9 @@ jobs:
         run: |
           cd target/${{ matrix.target }}/release
           if [ "${{ matrix.os }}" = "windows-latest" ]; then
-            cp ap.exe ../../../${{ matrix.artifact_name }}
+            cp ingress-ap-calc.exe ../../../${{ matrix.artifact_name }}
           else
-            cp ap ../../../${{ matrix.artifact_name }}
+            cp ingress-ap-calc ../../../${{ matrix.artifact_name }}
           fi
 
       - name: Upload binaries to release

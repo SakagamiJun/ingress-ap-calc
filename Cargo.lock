@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "ingress-apap-calc"
+name = "ingress-ap-calc"
 version = "0.1.0"

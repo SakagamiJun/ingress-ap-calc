@@ -19,17 +19,17 @@
 
 ## 安装
 
-你可以直接从 [Releases](https://github.com/your-username/ap/releases) 页面下载预编译的二进制文件。
+你可以直接从 [Releases](https://github.com/your-username/ingress-ap-calc/releases) 页面下载预编译的二进制文件。
 
 或者从源代码编译：
 
 ```bash
-git clone https://github.com/your-username/ap.git
-cd ap
+git clone https://github.com/your-username/ingress-ap-calc.git
+cd ingress-ap-calc
 cargo build --release
 ```
 
-编译后的文件位于 `target/release/ap`。
+编译后的文件位于 `target/release/ingress-ap-calc`。
 
 ## 使用说明
 
